@@ -26,6 +26,7 @@ int main(){
 	cout<<"Enter the node to delete:";
 	cin>>dval;
 	bst.deletenode(dval);
+	cout<<"After deleting:";
     bst.inOrder();
     return 0;
 
